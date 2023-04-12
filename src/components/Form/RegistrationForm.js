@@ -18,7 +18,7 @@ const RegistrationForm = ()=>{
         alert("Form is submited");
         console.log(userInfo);
         e.preventDefault();
-    }
+    } 
     const handelNameChange = (e) =>{
         console.log(e.target.value);
         setName(e.target.value)
